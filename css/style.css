@@ -63,6 +63,29 @@ font-size: 20px;
 }
 /*introduction style*/
 
+/*about style*/
+.about-section{
+	padding-top: 100px;
+	text-align: center;
+}
+.about-heading{
+
+	font-size: 40px;
+	font-weight: bold;
+}
+.about-section p{
+	font-size: 16px;
+	color: #616161;
+}
+.img-container{
+	padding-top: 40px;
+}
+img{
+	padding-bottom: 30px;
+	width: 92%;
+
+	}/*about style*/
+
 /*media query*/
 @media(max-width: 420px){
 	.logo{
@@ -72,10 +95,10 @@ font-size: 20px;
 		margin-top: 258px;
 	}
 	.head-description{
-		font-size: 50px;
+		font-size: 200px;
 	}
 }
 /*media query*/
 .dummy{
-	height: 1000px;
+	height: 3000px;
 }
