@@ -2,6 +2,10 @@
 body{
 	overflow-x: hidden;
 }
+a{
+	text-decoration: none;
+	color: #616161;
+}
 .header-container{
 	padding: 20px 0px;
 	text-align: center;
@@ -18,7 +22,7 @@ body{
 nav{
 	font-size: 14px;
 }
-/*header style*/
+/*header style
 
 /*introduction style*/
 .intro{
@@ -63,26 +67,29 @@ font-size: 20px;
 }
 /*introduction style*/
 
-/*about style*/
-.about-section{
+/*general section*/
+.section-container{
 	padding-top: 100px;
 	text-align: center;
 }
-.about-heading{
+.section-heading{
 
 	font-size: 40px;
 	font-weight: bold;
 }
-.about-section p{
+.section-container p{
 	font-size: 16px;
 	color: #616161;
 }
+/*general section*/
+/*about style*/
+
 .img-container{
 	padding-top: 40px;
 }
 img{
 	padding-bottom: 30px;
-	width: 92%;
+	width: 95%;
 
 	}/*about style*/
 
