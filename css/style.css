@@ -1,16 +1,17 @@
 /*header style*/
-.header-container
-{
+body{
+	overflow-x: hidden;
+}
+.header-container{
 	padding: 20px 0px;
 	text-align: center;
-	width: 100vw;
 	position: fixed;
 	top: 0;
 	z-index: 1;
 	border: 1px solid #9E9E9E;
+	width: 100vw;
 }
-.logo
-{
+.logo{
 	font-size: 20px;
 	color: #616161;
 }
@@ -18,16 +19,63 @@ nav{
 	font-size: 14px;
 }
 /*header style*/
+
 /*introduction style*/
 .intro{
 	background: url(https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050);
-	height: 650px;
-	background-size: cover;
+	height: 550px;
 	background-position: center;
-	width: 100vw;
+	background-size: cover;
 	background-attachment: fixed;
+	position: relative;
+	margin-top: 70px;
+	width: 100vw;
 }
+.intro-text{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+	color: #FFF;
+}
+.head-description{
+	font-size: 90px;
+}
+hr{
+    height: 30px;
+    border-style: solid;
+    border-color: #616161;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #616161;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.intro-description{
+font-size: 20px;
+}
+/*introduction style*/
+
+/*media query*/
+@media(max-width: 420px){
+	.logo{
+		font-size: 40px;
+	}
+	.intro{
+		margin-top: 258px;
+	}
+	.head-description{
+		font-size: 50px;
+	}
+}
+/*media query*/
 .dummy{
 	height: 1000px;
 }
-/*introduction style*/
