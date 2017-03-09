@@ -1,0 +1,33 @@
+/*header style*/
+.header-container
+{
+	padding: 20px 0px;
+	text-align: center;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	border: 1px solid #9E9E9E;
+}
+.logo
+{
+	font-size: 20px;
+	color: #616161;
+}
+nav{
+	font-size: 14px;
+}
+/*header style*/
+/*introduction style*/
+.intro{
+	background: url(https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050);
+	height: 650px;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	background-attachment: fixed;
+}
+.dummy{
+	height: 1000px;
+}
+/*introduction style*/
