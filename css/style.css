@@ -2,6 +2,9 @@
 	.work-space {
 		margin: 0px;
 	}
+	body{
+			overflow-x: hidden;
+		}
 	/*main area*/
 	/*background, navigation, header,creative tim*/
 	.background {
@@ -50,10 +53,6 @@
 		margin-top: 10px;
 	}
 
-	.hr1 {
-		margin-left: 22em;
-	}
-
 	.subheading {
 		margin: 150px 0px 50px 0px;
 		text-align: center;
@@ -76,7 +75,7 @@
 	}
 
 	.first-hr {
-		margin-left: 31em;
+		
 		padding: 0px;
 	}
 
@@ -334,17 +333,14 @@
 	}
 	/*footer*/
 	/*media query*/
-	@media (max-width: 420px) {
-		body{
-			overflow-x: hidden;
-		}
+	@media screen and (max-width: 414px) {
+		
+
 		.creative-tim h1 {
 			font-size: 20px;
 			margin-top: 30px;
 		}
-		.hr1{
-			margin-left: 70px;
-		}
+	
 		.subheading {
 			margin-top: 40px;
 		}
@@ -357,7 +353,7 @@
 		}
 
 		.first-hr {
-			margin-left: 20px;
+			margin-left: 5px;
 		}
 		.img{
 			margin-left: 60px;
